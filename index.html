@@ -14,11 +14,79 @@
 </head>
 <body>
 
+<nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">The Lost Tomb Archive</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+      <div class="drawer-header">
+        <p class="drawer-title h5" id="navbarNavLabel">Menu</p>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav md:ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
 
 <main>
+  <div class="container mt-5" id="about">
+    <h1 class="mb-3 fw-bold">The Lost Tomb Archive</h1>
+    <p class="lh-lg mb-3">Welcome to The Lost Tomb Archive, an escape room house built out of six tombs that were never properly closed. Tonight you travel with Wu Xie, Zhang Qiling and Fatty Wang, and every room you enter is a case the three of them walked out of without an answer.</p>
+    <p class="lh-lg mb-4">Six regions, six locked rooms, six files that still end in the middle of a sentence. Choose a case below, read what the last team left behind, and see whether you can reach the end of the page they could not.</p>
+  </div>
 
+  <div class="container mt-4">
+    <div id="heroCarousel" class="carousel carousel-overlay">
+      <div class="carousel-inner rounded-5">
+        <div class="carousel-item active">
+          <img src="images/banner1.jpg" class="d-block w-100" alt="A dark stone tunnel lit by a single torch">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner2.jpg" class="d-block w-100" alt="Snow-covered mountain peaks under a grey sky">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner3.jpg" class="d-block w-100" alt="Ancient ruins standing in an empty desert">
+        </div>
+      </div>
+      <div class="carousel-overlay-controls">
+        <div>
+          <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-icon-prev" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-icon-next" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 
+<footer class="text-center py-4 mt-5 border-top fg-2">
+ <p class="mb-1">&copy; 2026 The Lost Tomb Archive. A fan-made student project inspired by Grave Robbers' Chronicles by Nan Pai San Shu.</p>
+  <p class="mb-0 small">Photos: free images from Unsplash.</p>
+</footer>
 
 </body>
 </html>

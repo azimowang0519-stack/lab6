@@ -14,10 +14,41 @@
 </head>
 <body>
 
-
+<nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">The Lost Tomb Archive</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+      <div class="drawer-header">
+        <p class="drawer-title h5" id="navbarNavLabel">Menu</p>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav md:ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
 <main>
 </main>
 
+<footer class="text-center py-4 mt-5 border-top fg-2">
+   <p class="mb-1">&copy; 2026 The Lost Tomb Archive. A fan-made student project inspired by Grave Robbers' Chronicles by Nan Pai San Shu.</p>
+  <p class="mb-0 small">Photos: free images from Unsplash.</p>
+</footer>
 
 </body>
 </html>
+
