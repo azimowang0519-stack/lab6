@@ -17,5 +17,5 @@
 .case-no { font-family: system-ui, sans-serif; font-size: .75rem; letter-spacing: .18em; text-transform: uppercase; }
 body { line-height: 1.75; letter-spacing: .012em; }
 h1, h2, h3, .navbar-brand { font-family: "Libre Baskerville", Georgia, serif; line-height: 1.35; }
-.carousel-item img { aspect-ratio: 16 / 7; object-fit: cover; }
 .carousel-item img { aspect-ratio: 16 / 7; object-fit: cover; object-position: center 80%; }
+#about p { line-height: 2; }
