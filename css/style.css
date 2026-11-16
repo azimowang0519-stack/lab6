@@ -1,0 +1,19 @@
+:root {
+  color-scheme: dark;
+  --bs-bg-body: #0e0f0e;
+  --bs-bg-1: #0a0c0b;
+  --bs-fg-body: #e4e6e5;
+  --bs-primary-bg: #6f9c97;
+  --bs-primary-fg: #8fbdb7;
+  --bs-primary-fg-emphasis: #a8ccc7;
+  --bs-primary-border: #6f9c97;
+  --bs-primary-focus-ring: #8fbdb7;
+  --bs-primary-contrast: #0d1211;
+  --bs-border-color: #262b2a;
+}
+.btn-solid.theme-primary { --bs-theme-bg: #6f9c97; --bs-theme-border: #6f9c97; --bs-theme-contrast: #0d1211; }
+.btn-solid.theme-primary:hover { --bs-btn-hover-bg: transparent; --bs-btn-hover-color: #a8ccc7; --bs-btn-hover-border-color: #6f9c97; }
+.card { --bs-card-bg: #191d1c; --bs-card-border-color: #2b312f; --bs-bg-2: #1f2423; }
+.case-no { font-family: system-ui, sans-serif; font-size: .75rem; letter-spacing: .18em; text-transform: uppercase; }
+body { line-height: 1.75; letter-spacing: .012em; }
+h1, h2, h3, .navbar-brand { font-family: "Libre Baskerville", Georgia, serif; line-height: 1.35; }
